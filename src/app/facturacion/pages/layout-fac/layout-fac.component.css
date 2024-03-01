@@ -1,0 +1,5 @@
+/* Estilos para ocultar el side-nav cuando se está imprimiendo */
+.hide-side-nav {
+    display: none;
+  }
+  

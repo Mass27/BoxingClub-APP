@@ -1,0 +1,53 @@
+/* Estilo para el botón de agregar */
+.add-button-container {
+    margin-bottom: 20px; /* Espacio inferior para separar el botón de la tabla */
+  }
+  
+
+  .add-button {
+    background-color: #761717; /* Color de fondo rojo */
+    color: #ffffff; /* Color de texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor al pasar por encima */
+    font-size: 16px; /* Tamaño de fuente */
+  }
+  
+  .add-button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Estilo para la tabla de facturas */
+  .facturas-table {
+    width: 100%; /* Ancho completo */
+    border-collapse: collapse; /* Colapso de bordes */
+  }
+  
+  .facturas-table th,
+.facturas-table td {
+  border: 1px solid #dddddd; /* Borde sólido */
+  padding: 8px; /* Espaciado interno */
+  text-align: left; /* Alineación de texto a la izquierda */
+}
+  
+  .facturas-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  /* Estilo para el botón de editar */
+  .edit-button {
+    background-color: #9c1c1c; /* Color de fondo rojo */
+    color: #ffffff; /* Color de texto blanco */
+    padding: 8px 16px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor al pasar por encima */
+  }
+  
+  .edit-button:hover {
+    background-color: #702e2e;
+  }
+  
